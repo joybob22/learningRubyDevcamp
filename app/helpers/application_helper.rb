@@ -16,4 +16,8 @@ module ApplicationHelper
     end
   end
   
+  def copyright_generator
+    LemkeViewTool::Renderer.copyright 'Brayden Lemke', 'All rights reserved'
+  end
+  
 end

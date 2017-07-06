@@ -58,4 +58,5 @@ gem 'devise', '~> 4.3'
 
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
-gem 'lemke_view_tool', git: 'https://github.com/joybob22/lemke_view_tool'
+# gem 'lemke_view_tool', git: 'https://github.com/joybob22/lemke_view_tool'
+gem 'lemke_view_tool', '~> 0.1.0'

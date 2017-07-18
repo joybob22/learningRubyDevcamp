@@ -1,7 +1,7 @@
   <!--dont have to do portfolio_item.id could do portfolio_item-->
  
  
- <div class="card">
+ <div class="card" data-id="<%= portfolio_item.id %>">
   <%= image_tag portfolio_item.thumb_image if !portfolio_item.thumb_image.nil? %>
   <p class="card-text">
     <span>

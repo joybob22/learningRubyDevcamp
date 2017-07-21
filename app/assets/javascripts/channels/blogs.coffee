@@ -1,4 +1,4 @@
-jQuery(document).on 'turbolink:load', ->
+jQuery(document).on 'turbolinks:load', ->
   comments = $('#comments')
   if comments.length > 0
     App.global_chat = App.cable.subscriptions.create {

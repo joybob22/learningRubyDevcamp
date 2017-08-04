@@ -27,14 +27,22 @@ a:hover {
  * Base structure
  */
 
+
+
+
 html,
 body {
   height: 100%;
+  font-family: 'Raleway', sans-serif;
 }
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Saira Condensed', sans-serif;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -243,5 +251,13 @@ body {
 }
 
 .card-block {
+  margin: 5px 0;
+}
+
+.skills {
+  margin-top: 65px;
+}
+
+.skill {
   margin: 5px 0;
 }

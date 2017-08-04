@@ -8,7 +8,10 @@
 
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
+  font-family: 'Raleway', sans-serif;
 }
+
+
 
 .navbar {
   margin-bottom: 0;
@@ -71,4 +74,9 @@ footer p {
 
 .portfolio-container {
   padding-top: 30px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Saira Condensed', sans-serif;
 }

@@ -220,3 +220,24 @@ body {
 .packers-news > .card {
   padding: 30px;
 }
+
+.app-card-container {
+  color: black;
+  text-align: left;
+}
+
+.app-card-container > .card {
+  padding: 40px;
+}
+
+.profile-img {
+  display: block;
+  transform: rotate(270deg);
+  margin-top: 60px;
+  border: 1px solid gray;
+  margin-left : -60px;
+}
+
+.app-card-container a {
+  color: blue;
+}
